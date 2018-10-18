@@ -13,13 +13,11 @@
    <extension abstractclassprefix="Generated" classprefix="Checkboxconfiguratortemplatefacades" managername="CheckboxconfiguratortemplatefacadesManager" managersuperclass="de.hybris.platform.jalo.extension.Extension" name="checkboxconfiguratortemplatefacades" usemaven="false">
       <!-- for more information on maven managed libraries please consult https://wiki.hybris.com/x/Nq8sDQ -->
                
-      <!-- you should add all required extensions to this list, except platform extensions which are automatically required -->         
-      <!-- <requires-extension name="cms"/> -->         
-      
+      <!-- you should add all required extensions to this list, except platform extensions which are automatically required -->
+      <requires-extension name="checkboxconfiguratortemplateservices"/>
+      <requires-extension name="commercefacades"/>
 
       <coremodule generated="true" manager="de.hybris.platform.checkboxconfiguratortemplatefacades.jalo.CheckboxconfiguratortemplatefacadesManager" packageroot="de.hybris.platform.checkboxconfiguratortemplatefacades"/>
-
-      <webmodule jspcompile="false" webroot="/checkboxconfiguratortemplatefacades"/>
 
    </extension>
       
