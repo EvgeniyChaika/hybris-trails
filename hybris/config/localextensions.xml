@@ -33,6 +33,7 @@
         <extension name='droolsruleengineservices'/>
         <extension name='couponfacades'/>
         <extension name='promotionenginesamplesaddon'/>
+        <extension name='promotionengineservices'/>
         <extension name='textfieldconfiguratortemplatebackoffice'/>
         <extension name='textfieldconfiguratortemplateaddon'/>
         <extension name='cmswebservices'/>
@@ -66,5 +67,6 @@
         <extension name='checkboxconfiguratortemplateaddon'/>
         <extension name='checkboxconfiguratortemplateservices'/>
         <extension name='checkboxconfiguratortemplatefacades'/>
+        <extension name="promotionenginetrail" />
     </extensions>
 </hybrisconfig>
